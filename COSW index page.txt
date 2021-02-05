@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+  
+    <title>Ian Espinosa: Beginning Web Developer</title>
+    
+    <meta name="description" content="This is my Home Page, learn more about me and my journey with web programming.">
+    <meta name="page-topic" content="This page is about myself and my journey into Web Development">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body
+{
+  background: linear-gradient(to bottom, #586ac5 100%, #333333 100%);
+}
+
+header
+{
+  background: #c5b358;
+  width: 85em;
+  height: 70px;
+  position: sticky;
+  top: 0; 
+  margin: 0;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2
+{
+  font-family: 'Lato', sans-serif;
+  margin: 5px 0 0 10px;
+  padding: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+h2
+{
+  font-size: 4em;
+}
+
+.intro ul
+{
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.navbar
+{
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.disabled
+{
+  font-weight: 50px;
+  font-size: 34px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.nav-link
+{
+  font-size: 34px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.nav-link:hover
+{
+  color: rgb(197,88,106);
+}
+
+nav ul
+{
+  list-style: none;
+}
+
+nav ul li
+{
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+main
+{
+  margin: 0 2em 0 2em;
+}
+
+img
+{
+  float: right;
+  border-radius: 50%; 
+  height: 300px;
+  width: 300px;
+}
+
+
+p
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.middlebox
+{
+  width: 45em;
+  margin: 0 0 0 0em;
+}
+
+#middleboxtext
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+hr
+{
+  width: 80em;
+  color: #ffffff;
+}
+
+footer
+{
+  background: linear-gradient(90deg, rgba(0,204,153,0.2), rgba(204,153,255,0.2), rgba(255,255,102,0.2));
+  width: 40em;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 1em; 
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px)
+{
+  .navbar a
+  {
+    float: none;
+    width: 100%;
+  }
+  
+}
+    </style>
+      
+  </head>
+    
+    <body>
+        
+    <header>
+        
+        <h1>Ian Espinosa</h1>
+        
+        <div class="navbar">
+            
+        <nav>
+            
+        <ul>
+          <li><div class="disabled">Home</div></li>
+          <li><a href="https://ianespinosa.000webhostapp.com/hw/hw1/files_for_hw1/hw1.html" class="nav-link">Project 1</a></li>
+            <li><a href="https://ianespinosa.000webhostapp.com/hw/hw2/files_for_hw2/list_tv_shows.html" class="nav-link">Project 2</a></li>
+        </ul>
+            
+        </nav>
+            
+        </div>
+        
+    </header>
+        
+  <main>
+      
+    <img src="mypicture.jpg" alt="A picture of me and my girlfriend." border="0">
+      
+    <h2>My Web Development Portfolio</h2>
+      
+    <div class="intro">
+        
+    <ul><h3>About Me</h3>
+      <li>I currently study at Long Beach City College in Long Beach, California</li>
+      <li>I am interested in becoming a Full Stack Web and Application Developer</li>
+      <li>I have experience in the following programming languages: Python, Java, C++, C, HTML and CSS</li>
+    </ul>
+        
+    </div>
+        
+    <div class="middlebox">
+      <p id="middleboxtext">Hello! My name is Ian Espinosa. I am 22 years old, and I am student at Long Beach City College. I am currently on track to receive my Associate's Degree in Computer Science and a Certificate in Web Development by the end of the Spring 2020 semester. My business email is IanEspinosaBiz@gmail.com.</p>
+
+    </div>
+      
+      <ul>
+          <p>The three most important concepts I have learned and demonstrated in this COSW 10 course are:</p>
+      <li><p>Always organize your files and folders properly</p></li>
+      <li><p>Always save your work and have backups for your files because you will frequently edit and update your sites</p></li>
+      <li><p>Always format your code so that it's easy for you to understand so you can pick up where you left off easily</p></li>
+      </ul>
+      <p>After taking this course, I will be taking COSW 20 Front End Website Development, COSW 200 Intro to JavaScript and jQuery and COSW 240 Intro to Content Management. I am anticipating a full workload, but I plan on preparing for these upcoming courses by practicing my programming, organizing, and familiarizing myself more with the concepts laid out through this class.</p>
+        
+  </main>
+    <hr>
+    <br>
+    
+  <footer><p>Copyright &copy; 2020 Ian Espinosa. All rights reserved.</p></footer>
+    
+  </body>
+  
+</html>
